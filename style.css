@@ -27,6 +27,15 @@ body {
   gap: 1.2rem;
 }
 
+@media (max-width: 670px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    grid-column: 1;
+  }
+}
+
 header {
   height: 100%;
   grid-column: 1/2;
